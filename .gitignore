@@ -1,0 +1,48 @@
+# Added by code-review-graph
+.code-review-graph/
+
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ── Next.js build output ──────────────────────────────────────────────────────
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# ── Python venv & cache ───────────────────────────────────────────────────────
+backend/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+
+# ── OS & editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ── Test / scratch files ──────────────────────────────────────────────────────
+backend/testdata.csv
+
+# ── Tool config dirs ──────────────────────────────────────────────────────────
+.claude/
+.codegraph/
+.cursor/
+.gemini/
+.kiro/
+.qoder/
+frontend/.claude/
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.log
+.turbo/
